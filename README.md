@@ -6,7 +6,7 @@
     <br>
 </p>
 
-<h1 align="center">Curation Controversial Syntax Wednesdays</h1>
+<h1 align="center">Controversial Syntax Wednesdays</h1>
 
 Fun coding challenges so everyone can show off and learn together. 
 
