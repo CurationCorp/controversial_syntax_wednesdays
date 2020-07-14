@@ -10,6 +10,8 @@ For example, the input `abcd` would return `[0,1,2,1]` as `a` is `0` letters fro
 
 Do not calculate the values "over the top", i.e. the letter `z` should return the int `5` and not `1`
 
+Check your answers with `yarn test`. 
+
 ### *BONUS* 
 code it as functionally as possible. 
 
