@@ -10,4 +10,17 @@
 
 Fun coding challenges so everyone can show off and learn together. 
 
+**Index**
 - 001: [vowel-finder](001_vowel_distance_finder/)
+
+--- 
+
+## Setup
+```
+yarn
+```
+
+## Run
+```
+yarn test
+```
