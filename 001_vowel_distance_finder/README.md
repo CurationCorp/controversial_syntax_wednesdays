@@ -1,4 +1,6 @@
-# Vowel Finder
+# Vowel Letter Distance Finder Thing
+
+*solving only the most real-world problems*
 
 Given a string input of arbitrary length, return an array of integers representing how many letters each letter is away from its nearest vowel. 
 
