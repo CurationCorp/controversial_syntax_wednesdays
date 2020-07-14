@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\001_vowel_finder\\index.js"
+            "program": "${workspaceFolder}\\001_vowel_distance_finder\\index.js"
         }
     ]
 }

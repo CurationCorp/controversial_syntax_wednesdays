@@ -10,4 +10,4 @@
 
 Fun coding challenges so everyone can show off and learn together. 
 
-- 001: [vowel-finder](000_vowel_finder/)
+- 001: [vowel-finder](001_vowel_distance_finder/)
