@@ -15,7 +15,11 @@ Do not calculate the values "over the top", i.e. the letter `"z"` should return 
 Check your answers with `yarn test`. 
 
 ### *BONUS* 
-code it as functionally as possible. 
+- Code it as functionally as possible. 
+- Try doing things in interesting ways (...do I have to write out the alphabet?), 
+- Use some obscure syntax/language feature that you've never used before. 
+- Flair it up. 
+- If you think it's too easy, code golf it.
 
 ### **DOUBLE BONUS** 
 calculate values over the top (`"z" => 1`, `"y" => 2`, etc)
