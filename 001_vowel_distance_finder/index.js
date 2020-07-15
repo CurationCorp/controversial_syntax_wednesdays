@@ -2,14 +2,22 @@ module.exports = function findNearestVowels(str) {
   function convertToChar(character) {
     return character.charCodeAt();
   }
-  function checkNearestVowel(character) {
+
+  function distanceFromCharacter(a, b) {
+    return Math.abs(a - b);
+  }
+
+  function checkNearestVowel(characterCode) {
     const vowelsCharCodes = ["a", "e", "i", "o", "u"].map((char) =>
       convertToChar(char)
     );
-    return vowelsCharCodes.reduce((prev, curr) => {
-      const distanceFromVowel = Math.abs(character - curr);
-      return distanceFromVowel < prev ? distanceFromVowel : prev;
-    }, character);
+    const distanceFromVowel = vowelsCharCodes.map((vowel) =>
+      distanceFromCharacter(vowel, characterCode)
+    );
+
+    return distanceFromVowel.reduce((prev, curr) => {
+      return prev < curr ? prev : curr;
+    }, distanceFromVowel[0]);
   }
 
   return [...str]
