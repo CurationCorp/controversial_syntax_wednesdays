@@ -2,7 +2,7 @@
 
 *solving only the most real-world problems*
 
-Given a string input of arbitrary length, return an array of integers representing how many letters each letter is away from its nearest vowel. 
+Given a string input of arbitrary length, write a function that returns an array of integers representing how many letters each letter is away from its nearest vowel. 
 
 The input will ONLY contain lowercase letters from the Roman alphabet (i.e. a-z). 
 
