@@ -1,5 +1,4 @@
 module.exports = function findLargestOneSequence(n) {
-<<<<<<< HEAD
   if (n > 0) {
     return Number(n)
       .toString(2)
@@ -8,11 +7,9 @@ module.exports = function findLargestOneSequence(n) {
       .reduce(
         (acc, curr) => {
           if (curr) {
+            acc.run++;
             if (acc.run >= acc.highest) {
-              acc.run++;
               acc.highest = acc.run;
-            } else {
-              acc.run++;
             }
           } else {
             acc.run = 0;
@@ -24,9 +21,3 @@ module.exports = function findLargestOneSequence(n) {
   }
   return 0;
 };
-
-// console.log(findLargestOneSequence(-100));
-=======
-  return;
-};
->>>>>>> master
