@@ -1,7 +1,6 @@
 module.exports = function findLargestOneSequence(n) {
   // return 0 if 0 or negative
   if (n <= 0) return 0;
-  
   // convert to binary
   let binary = n.toString(2);
   // split into array of strings of 1's and remove any empty strings
