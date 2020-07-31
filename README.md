@@ -11,8 +11,9 @@
 Fun coding challenges so everyone can show off and learn together. 
 
 **Index**
-- 001: [vowel-finder](001_vowel_distance_finder/) - winner: Phat Ma!
-- 002: [binary-ones-length](002_binary_ones_length) - Winner: ?
+- 001: [vowel-finder](001_vowel_distance_finder/) - winner: Phat Ma
+- 002: [binary-ones-length](002_binary_ones_length) - Winner: Henry Dashwood
+- 003: [largest-square](003_largest_square) - Winner: ?
 --- 
 
 ## Setup
