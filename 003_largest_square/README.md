@@ -1,6 +1,6 @@
-# Largest Square of 1s in a matrix
+# Largest Square of 1s in a Matrix
 
-Given a 2d tensor of ones and zeros, find the area of the largest square of 1s contained within it. You can do this challenge in Python, Javscript, or both
+Given a 2d tensor of 1s and 0s, find the area of the largest square of 1s contained within it. You can do this challenge in Python, JavaScript, or both!
 
 For example:
 
